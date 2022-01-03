@@ -1,0 +1,6 @@
+#include "./js/c++/array.cpp"
+#include "./js/c++/object.cpp"
+#include "./js/c++/string.cpp"
+#include "./js/c++/number.cpp"
+#include "./js/c++/boolean.cpp"
+#include "./js/c++/globals.cpp"
