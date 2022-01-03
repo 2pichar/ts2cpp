@@ -1,10 +1,12 @@
+#include "./number.hpp"
+#include <stdio.h>
 namespace js{
     /*Console.log:
     template <typename ...Args>
     void print(Args... args){
         Array<Object> arr = {};
         (arr.push(args), ...);
-        std::cout << arr.join() << '\n';
+        printf(arr.join().std() + '\n');
     }
     */
 
@@ -16,5 +18,5 @@ namespace js{
 
     }
 
-    
+    class NaN NaN;
 }
