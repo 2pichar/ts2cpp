@@ -2,9 +2,10 @@
 namespace js {
     class Function : public Object {
         private:
-            std::function<>
+            std::function<> value;
         public:
             Function();
+            auto operator()();
             
     }
 }
