@@ -1,10 +1,10 @@
 CC=g++
-FILES=
+FILES=include/js/c++/*.cpp
 OUT=dist/js
 FLAGS=
-OBJECTS=$(SOURCES:.cpp=.o)
+OBJECTS=$(FILES:.cpp=.o)
 
-all: $(SOURCES) $(OUT)
+all: $(FILES) $(OUT)
 $(OUT): $(OBJECTS)
 
 build:
