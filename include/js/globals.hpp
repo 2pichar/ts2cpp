@@ -8,7 +8,7 @@
 
 
 namespace js{
-    class Console {
+    class Console : public Object {
         private:
             Console();
         public:
@@ -22,7 +22,7 @@ namespace js{
     
     class Console console;
 
-    class NULL : public Object{
+    class NULL : public Object {
         public:
             static class String __type__;
     }
