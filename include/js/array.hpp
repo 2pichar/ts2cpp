@@ -11,6 +11,6 @@ namespace js {
             Array();
             static from();
             
-            String join(String);
+            String join(String = ",");
     }
 }
