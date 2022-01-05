@@ -22,7 +22,7 @@ namespace js{
     
     class Console console;
 
-    class NULL : public Object {
+    class Null : public Object {
         public:
             static class String __type__;
     }
@@ -33,8 +33,8 @@ namespace js{
     }
 
     class NaN NaN;
-    class NULL null;
-    class UNDEFINED undefined;
+    class Null null;
+    class Undefined undefined;
 
     String typeof(Object);
 }
