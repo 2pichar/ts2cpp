@@ -6,14 +6,12 @@ namespace js {
     class Number : public Object {
         private:
             double value;
-            typedef Number* half;
         public:
             Number();
             class NaN NaN;
             bool isNaN(Object x);
             bool operator==(const Object& x);
             Number operator/(const Object& x);
-            Number operator*(const Object& x);
             Number operator+(const Object& x);
             Number operator-(const Object& x);
             Number operator*(const Object& x);
