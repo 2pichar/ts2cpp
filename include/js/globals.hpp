@@ -9,15 +9,14 @@
 
 namespace js{
     class Console : public Object {
-        private:
-            Console();
         public:
-            static void log(Object...);
-            static void error(Object...);
-            static void warn(Object...);
-            static void debug(Object...);
-            static void trace(Object...);
-            static void assert(Boolean, Object...);
+            Console();
+            void log(Object...);
+            void error(Object...);
+            void warn(Object...);
+            void debug(Object...);
+            void trace(Object...);
+            void assert(Boolean, Object...);
     }
     
     class Console console;
