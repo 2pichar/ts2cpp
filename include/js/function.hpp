@@ -1,4 +1,6 @@
 #include <functional>
+#include "./object.hpp"
+
 namespace js {
     template <typename R, typename ...Args>
     class Function<R(Args...)> : public Object {
@@ -13,9 +15,22 @@ namespace js {
             return_t operator()(Args... args){
                 return this->value(args...);
             };
+
             /*
             return_t call(Object thisArg, Args... args){
                 return this->value(args...);
             }*/
+
+            /*
+            return_t apply(Object thisArg, Array<Object> args){
+
+            }
+            */
+
+            /*
+            return_t bind(Object thisArg, Args... args){
+
+            }
+            */
     }
 }
