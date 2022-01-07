@@ -4,3 +4,4 @@
 #include "./js/c++/number.cpp"
 #include "./js/c++/boolean.cpp"
 #include "./js/c++/globals.cpp"
+#include "./js/c++/symbol.cpp"
